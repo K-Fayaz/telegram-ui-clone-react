@@ -25,7 +25,7 @@ const UserHeader = ()=>{
         <main style={
             mode ? { backgroundColor: Theme.dark.bg , color: Theme.light.text }
                  : { backgroundColor: "#57849e", color: Theme.light.text }
-        } className="w-full p-1 flex justify-between items-center border-[#5e5d5d]">
+        } className="w-full p-[6px] flex justify-between items-center border-[#5e5d5d]">
             <div className="ml-2 flex items-center">
                 {
                     showMessage && compactMode && <KeyboardBackspaceIcon className={`text-white mr-5`} onClick={handleGoBack}/>
